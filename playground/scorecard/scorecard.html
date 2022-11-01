@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./scorecard.css">
+    <title>🏀 Sports Scorecard</title>
+</head>
+<body>
+    <a href="/playground.html"><img src="/img/arrow-left.png" height="18px" alt="">go back...</a>
+    <div class="container">
+        <h1>🏀 Scorecard!!</h1>
+        <div class="score-section">
+            
+            <div class="home">
+                <h3>HOME</h3>
+                <h2 id="home-score"></h2>
+                <div id="home-points">
+                    <button onclick="addOneHome()">+1</button>
+                    <button onclick="addTwoHome()">+2</button>
+                    <button onclick="addThreeHome()">+3</button>
+                </div>
+            </div>
+            <div class="guest">
+                <h3>GUEST</h3>
+                <h2 id="guest-score"></h2>
+                <div id="guest-points">
+                    <button onclick="addOneGuest()">+1</button>
+                    <button onclick="addTwoGuest()">+2</button>
+                    <button onclick="addThreeGuest()">+3</button>
+                </div>
+            </div>
+        </div>
+        <button id="new-game" onclick="newGame()">New Game</button>
+    </div>
+
+    <script src="./scorecard.js"></script>
+</body>
+</html>
