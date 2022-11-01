@@ -34,9 +34,22 @@
             margin: 6px;
         }
 
+        iframe {
+        border: 2px #303030 solid;
+        border-radius: 5px;
+        width: 640px;
+        height: 480px
+        }
+
+        @media only screen and (max-width: 640px) {
+            iframe {
+            width: 100%;
+            height: auto;
+            }
+        }
     </style>
 
-    <title>The Happiness Of The Katakuris</title>
+    <title>Seven Samurai</title>
     <link rel="icon" href="./img/tv-icon.png" type="image/x-icon">
 </head>
 <body>
@@ -47,27 +60,14 @@
             <div class="main">
 
                 <div class="video">
-                    <div class="playbutton">Play</div>    
-                    <img class="ceneqa-logo" src="./img/tv.gif" width="300px" data-video="https://archive.org/embed/the.-happiness.-of.-the.-katakuris.-2001?autoplay=1?texttrack=es" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" alt="home">
+                    <iframe src="https://archive.org/embed/seven-samurai" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
                 </div>
-                  <div class="tube"></div>
-                  
-
-                  <div class="close">
-                    <h3>The Happiness Of The <span class="bold">Katakuris</span> (2001)</h3>
-                    <p><b class="bold">Play/Pause</b> = Space Button</p>
-                    <p><b class="bold">Volume</b> = Up/Down Arrow Keys</p>
-                    <p><b class="bold">Search</b> = Right/Left Arrow Keys</p>
-                    <p><b class="bold">Captions</b> = "C" Key</p>
-                    <p><b class="bold">Mute/Unmute</b> = "M" Key</p>
-                    <p><b class="bold">Seek %</b> = 0 - 9 Keys</p>
-                    <p><b class="bold">Fullscreen</b> = Doubleclick Screen</p></div>
                     
                   <p>&copy; ✌️😎 Productions</p>
             </div>
             
 
-            <p>Let's watch a weird and ridiculous movie together.</p>
+            <p>Let's watch a movie together.</p>
             <div class="links">
                 <a href="./index.html">##DYN</a>
                 <a href="./earth.html">EARTH</a>
@@ -86,6 +86,6 @@
 
         </header>
     </div>
-    <script src="./video.js"></script>
+    
 </body>
 </html>

@@ -255,4 +255,5 @@ p {
     height: auto;
     margin: auto;
     border-radius: 15px;
+    box-shadow: 0 0 6px rgb(69, 69, 69);
 }
