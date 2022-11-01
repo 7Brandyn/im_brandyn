@@ -249,3 +249,10 @@ p {
     transition: 1s;
     transform: scale(120%);
 }
+
+.playground-img {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    border-radius: 15px;
+}
