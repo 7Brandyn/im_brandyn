@@ -168,10 +168,6 @@ p {
     color: var(--primary-text);
 }
 
-.videooo {
-    border: #fff solid 1px;
-}
-
 .close {
     cursor: pointer;
     color: #fff;
